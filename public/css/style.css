@@ -7,6 +7,11 @@
     /* background-color: #0e1117; */
 }
 
+body{
+    background-color: #0e1117;
+
+}
+
 /* /////////////HEADER/////////////// */
 header {
     background-color:#161b22;
@@ -55,7 +60,6 @@ section {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background-color: #0e1117;
 
 }
     
@@ -224,4 +228,23 @@ section {
     font-size: 12px;
     margin-top: 8px;
 
+}
+
+.contributions {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 1px solid rgb(67, 67, 67);
+    height: 200px;
+    border-radius: 5px;
+    padding: 16px;
+    width: 867px;
+}
+    
+.contr1 { grid-area: 1 / 1 / 2 / 2; }
+
+.img-contr {
+    width: 844px;
 }
