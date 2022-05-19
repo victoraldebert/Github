@@ -77,8 +77,8 @@ li {
 .btn {
     color: #C9D1D9;
     background-color: #21262D;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 110px;
+    padding-right: 110px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 5px;
@@ -99,5 +99,19 @@ li {
 .follow-text {
     display: inline;
     color: #8B949E;
+
+}
+
+.map {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    color: #C9D1D9;
+
+}
+
+.bio {
+    font-size: 14px;
+    color: #C9D1D9;
 
 }
