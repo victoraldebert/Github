@@ -1,0 +1,103 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    background-color: #0e1117;
+}
+
+header {
+    background-color:#161b22;
+    height: 64px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    font-size: 14px;
+    display: inline;
+}
+
+
+.nav-form {
+    padding-right: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    background-color: black;
+    border: black;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 18px;
+
+}
+.nav-text {
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+/* //////LEFT///// */
+
+.left {
+    margin-top: 40px;
+    margin-left: 95px;
+}
+
+.left-logo {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(217, 55, 55);
+    border-radius: 100%;
+}
+
+.name {
+    color: #8B949E;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.description {
+    color: #C9D1D9;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.btn {
+    color: #C9D1D9;
+    background-color: #21262D;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid ;
+}
+
+
+.follow {
+    width: 270px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.follow-number {
+    display: inline;
+    color: #C9D1D9;
+}
+
+.follow-text {
+    display: inline;
+    color: #8B949E;
+
+}
