@@ -164,7 +164,10 @@ section {
     margin-left: 20px;
     margin-top: 22px;
     text-decoration: none;
-    color: #C9D1D9;
+    color: #C9D1D9;    
+    background-color: #0f1117;
+    padding: 6px;
+
 }
 .nav-text-2:hover {
     background-color: rgb(73, 73, 73);
