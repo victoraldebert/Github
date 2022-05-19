@@ -161,7 +161,6 @@ section {
     margin-top: 22px;
     text-decoration: none;
     color: #C9D1D9;
-    transition: 0.5s;
 }
 .nav-text-2:hover {
     background-color: rgb(73, 73, 73);
