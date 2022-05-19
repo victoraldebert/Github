@@ -55,6 +55,7 @@ li {
 /* //////////LEFT AND RIGHT////////// */
 section {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
@@ -69,11 +70,14 @@ section {
 .left {
     width: 424px;
     height: 580px;
+    text-align: center;
 
 }
 .left-container {
-    margin-top: 35px;
-    margin-left: 95px;
+    margin-top: 35px;   
+    margin-left: 95px;  
+    text-align: start;
+    
 }
 
 .left-logo {
@@ -268,3 +272,21 @@ footer{
     color: #55A6FF;
     margin-left: 40px;
 }
+
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.left { grid-area: 1 / 1 / 2 / 2; }
+.right { grid-area: 1 / 2 / 2 / 4; }
