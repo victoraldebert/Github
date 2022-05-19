@@ -52,6 +52,15 @@ li {
     color: white;
 }
 
+
+
+.icon {
+    height: 32px;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 32px;
+}
+
 /* //////////LEFT AND RIGHT////////// */
 section {
     display: grid;
@@ -83,7 +92,8 @@ section {
 .left-logo {
     height: 300px;
     width: 300px;
-    background-color: rgb(217, 55, 55);
+    background-image: url(/public/images/IMG_4405.jpg);
+    background-size: 100%;
     border-radius: 100%;
 }
 
@@ -294,3 +304,11 @@ footer{
 
 .left { grid-area: 1 / 1 / 2 / 2; }
 .right { grid-area: 1 / 2 / 2 / 4; }
+
+
+
+.solid {
+    border: 1px solid rgb(67, 67, 67);
+    margin-top: 20px;
+
+}
