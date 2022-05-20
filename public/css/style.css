@@ -264,6 +264,60 @@ section {
     width: 844px;
 }
 
+/* ///////////REPOSITORIES//////////// */
+
+.find-form {
+    padding-right: 260px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    background-color: #0e1117;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.repos {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.repos-name {
+    font-size: 20px;
+    color: #55A6FF;
+    font-weight: 600;
+}
+
+.repos-desc {
+    font-size: 14px;
+    color: #8B949E;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+
+.repos-lang {
+    font-size: 12px;
+    color: #8B949E;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ////////////FOOTER//////////// */
 
@@ -309,7 +363,12 @@ footer{
 
 .solid {
     border: 1px solid rgb(67, 67, 67);
+    margin-top: 11px;
+    width: 920px;
+}
+
+.solid2 {
+    border: 1px solid rgb(67, 67, 67);
     margin-top: 20px;
     width: 920px;
-
 }
