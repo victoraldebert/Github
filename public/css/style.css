@@ -92,7 +92,7 @@ section {
 .left-logo {
     height: 300px;
     width: 300px;
-    background-image: url(/public/images/IMG_4405.jpg);
+    background-image: url(../public/images/IMG_4405.jpg);
     background-size: 100%;
     border-radius: 100%;
 }
